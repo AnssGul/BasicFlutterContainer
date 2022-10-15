@@ -1,8 +1,7 @@
 
 <h1 align="center">Hi 👋, I'm Muhammad Anss Gul</h1>
 <h3 align="center">A passionate frontend developer from Pakistan</h3>
-<img align="right" alt="Coding" width="400" src="https://github.com/AnssGul/AnssGul
-
+<img align="right" alt="Coding" width="400" src="https://i.pinimg.com/originals/f1/e7/34/f1e734f9cade86fe737a9aa404ad5677.gif">
 - 🌱 I’m currently learning **Flutter**
 
 - 🤝 I’m looking for help with **android**
