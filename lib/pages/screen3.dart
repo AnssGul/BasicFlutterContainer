@@ -66,7 +66,7 @@ class Screen3 extends StatelessWidget {
                             children: [
                               const CircleAvatar(
                                 backgroundImage: NetworkImage(
-                                    "https://pbs.twimg.com/profile_images/1304985167476523008/QNHrwL2q_400x400.jpg"),
+                                    ""),
                                 radius: 30,
                               ),
                               const SizedBox(height: 10),
@@ -101,7 +101,7 @@ class Screen3 extends StatelessWidget {
                             children: [
                               const CircleAvatar(
                                 backgroundImage: NetworkImage(
-                                    "https://pbs.twimg.com/profile_images/1304985167476523008/QNHrwL2q_400x400.jpg"),
+                                    ""),
                                 radius: 30,
                               ),
                               const SizedBox(height: 10),
@@ -119,7 +119,7 @@ class Screen3 extends StatelessWidget {
                             children: [
                               const CircleAvatar(
                                 backgroundImage: NetworkImage(
-                                    "https://pbs.twimg.com/profile_images/1304985167476523008/QNHrwL2q_400x400.jpg"),
+                                    ""),
                                 radius: 30,
                               ),
                               const SizedBox(height: 10),
