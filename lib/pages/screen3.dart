@@ -6,11 +6,15 @@ class Screen3 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: PreferredSize(
+
           preferredSize:const Size.fromHeight(150.0),
+
           child:AppBar(
+backgroundColor: Colors.black26,
             flexibleSpace:const Center(
               child:Text('AppBar With Height 150'),
             ),
+
           ),
         ),
 
@@ -37,21 +41,26 @@ class Screen3 extends StatelessWidget {
                 height: 200,
                 width: 420,
 
-                  color:Colors.blue,
+                  color:Colors.black26,
 
 
 
               ),
             ),
 
-            Container(
-                 alignment: Alignment.centerLeft,
-              margin: const EdgeInsets.all(8),
-              color: Colors.blue,
-              height: 40,
-              width:150 ,
-            ),
+       Row(
+         crossAxisAlignment: CrossAxisAlignment.start,
+         children:<Widget> [
+           Container(
+             alignment: Alignment.topRight,
+             margin: const EdgeInsets.all(8),
+             color: Colors.black26,
+             height: 40,
+             width:150 ,
+           ),
 
+         ],
+       ),
 
             SingleChildScrollView(
               scrollDirection: Axis.horizontal,
@@ -67,6 +76,7 @@ class Screen3 extends StatelessWidget {
                               const CircleAvatar(
                                 backgroundImage: NetworkImage(
                                     ""),
+                                backgroundColor: Colors.black26,
                                 radius: 30,
                               ),
                               const SizedBox(height: 10),
@@ -83,7 +93,7 @@ class Screen3 extends StatelessWidget {
                             mainAxisSize: MainAxisSize.min,
                             children: [
                               const CircleAvatar(
-
+                                backgroundColor: Colors.black26,
                                 radius: 30,
                               ),
                               const SizedBox(height: 10),
@@ -100,6 +110,7 @@ class Screen3 extends StatelessWidget {
                             mainAxisSize: MainAxisSize.min,
                             children: [
                               const CircleAvatar(
+                                backgroundColor: Colors.black26,
                                 backgroundImage: NetworkImage(
                                     ""),
                                 radius: 30,
@@ -118,6 +129,7 @@ class Screen3 extends StatelessWidget {
                             mainAxisSize: MainAxisSize.min,
                             children: [
                               const CircleAvatar(
+                                backgroundColor: Colors.black26,
                                 backgroundImage: NetworkImage(
                                     ""),
                                 radius: 30,
@@ -136,6 +148,7 @@ class Screen3 extends StatelessWidget {
                             mainAxisSize: MainAxisSize.min,
                             children: [
                               const CircleAvatar(
+                                backgroundColor: Colors.black26,
 
                                 radius: 30,
                               ),
@@ -153,7 +166,7 @@ class Screen3 extends StatelessWidget {
                             mainAxisSize: MainAxisSize.min,
                             children: [
                               const CircleAvatar(
-
+                                backgroundColor: Colors.black26,
                                 radius: 30,
                               ),
                               const SizedBox(height: 10),
@@ -170,7 +183,7 @@ class Screen3 extends StatelessWidget {
                             mainAxisSize: MainAxisSize.min,
                             children: [
                               const CircleAvatar(
-
+                                backgroundColor: Colors.black26,
                                 radius: 30,
                               ),
                               const SizedBox(height: 10),
@@ -194,7 +207,7 @@ class Screen3 extends StatelessWidget {
               children:<Widget> [
                 Container(
                   margin: const EdgeInsets.all(8),
-                  color: Colors.blue,
+                  color: Colors.black26,
                   height: 40,
                   width:180 ,
                 ),
@@ -202,7 +215,7 @@ class Screen3 extends StatelessWidget {
                   width: 170,
                 ),
                 Container(
-                   child:const Text("View All",style: TextStyle(color: Colors.grey),) ,
+                   child:const Text("View All",style: TextStyle(color: Colors.black26),) ,
 
                   height: 40,
                   width:40 ,
@@ -223,7 +236,7 @@ class Screen3 extends StatelessWidget {
                     child: Container(
                       height: 150,
                       width: 170,
-                      color: Colors.blue,
+                      color: Colors.black26,
 
 
                     ),
@@ -233,7 +246,7 @@ class Screen3 extends StatelessWidget {
                     child: Container(
                       height: 150,
                       width: 170,
-                      color: Colors.blue,
+                      color: Colors.black26,
 
                     ),
 
@@ -243,7 +256,7 @@ class Screen3 extends StatelessWidget {
                     child: Container(
                       height: 150,
                       width: 170,
-                      color: Colors.blue,
+                      color: Colors.black26,
 
                     ),
                   )

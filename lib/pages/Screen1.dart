@@ -40,7 +40,7 @@ class Screen1 extends StatelessWidget {
                     color:Colors.brown,
                       ),
 
-                  child: const Text("Top-1"),
+                  child: const Text("Top-2"),
                 ),
               )
             ],
