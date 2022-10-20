@@ -13,85 +13,95 @@ class Screen1 extends StatelessWidget {
         backgroundColor: Colors.grey,
       ),
       backgroundColor: Colors.grey,
-      body: Column(
-        children:<Widget> [
-          Row(
-            children:<Widget> [
-              Padding(
-                padding: const EdgeInsets.all(12.0),
-                child: Container(
-                  height: 300,
-                  width: 180,
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(10),
-                    color:Colors.brown,
-                  ),
+      body: SingleChildScrollView(
+        scrollDirection: Axis.vertical,
+        child: Column(
+          children:<Widget> [
+            SingleChildScrollView(
+              scrollDirection: Axis.horizontal,
+              child: Row(
 
-                  child: const Text("Top-1"),
-                ),
-              ),
-              Padding(
-                padding: const EdgeInsets.all(12.0),
-                child: Container(
-                  height: 300,
-                  width: 180,
-                  decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(10),
-                    color:Colors.brown,
+                children:<Widget> [
+                  Padding(
+                    padding: const EdgeInsets.all(12.0),
+                    child: Container(
+                      height: 280,
+                      width: 170,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(10),
+                        color:Colors.brown,
                       ),
 
-                  child: const Text("Top-2"),
-                ),
-              )
-            ],
-          ),
+                      child: const Text("Top-1"),
+                    ),
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.all(12.0),
+                    child: Container(
+                      height: 280,
+                      width: 170,
+                      decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(10),
+                        color:Colors.brown,
+                          ),
 
-
-          Padding(
-            padding: const EdgeInsets.all(8.0),
-            child: Container(
-              height: 200,
-              width: 380,
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(10),
-                color:Colors.brown,
+                      child: const Text("Top-2"),
+                    ),
+                  )
+                ],
               ),
-
-              child: const Text("Center-1"),
             ),
-          ),
-          Row(
-            children:<Widget> [
-              Padding(
-                padding: const EdgeInsets.all(12.0),
-                child: Container(
-                  height: 250,
-                  width: 180,
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(10),
-                    color:Colors.brown,
-                  ),
 
-                  child: const Text("Bottom-1"),
+
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Container(
+                height: 185,
+                width: 375,
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(10),
+                  color:Colors.brown,
                 ),
+
+                child: const Text("Center-1"),
               ),
-              Padding(
-                padding: const EdgeInsets.all(12.0),
-                child: Container(
-                  height: 250,
-                  width: 180,
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(10),
-                    color:Colors.brown,
+            ),
+            SingleChildScrollView(
+              scrollDirection: Axis.horizontal,
+              child: Row(
+                children:<Widget> [
+                  Padding(
+                    padding: const EdgeInsets.all(12.0),
+                    child: Container(
+                      height: 240,
+                      width: 170,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(10),
+                        color:Colors.brown,
+                      ),
+
+                      child: const Text("Bottom-1"),
+                    ),
                   ),
+                  Padding(
+                    padding: const EdgeInsets.all(12.0),
+                    child: Container(
+                      height: 240,
+                      width: 170,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(10),
+                        color:Colors.brown,
+                      ),
 
-                  child: Text("Bottom-2"),
-                ),
-              )
-            ],
-          ),
+                      child: Text("Bottom-2"),
+                    ),
+                  )
+                ],
+              ),
+            ),
 
-        ],
+          ],
+        ),
       ),
     );
   }

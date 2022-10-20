@@ -21,7 +21,7 @@ class screen2 extends StatelessWidget {
                             mainAxisSize: MainAxisSize.min,
                             children: const [
                               CircleAvatar(
-
+                                backgroundColor: Colors.black26,
                                 radius: 30,
                               ),
                               SizedBox(height: 10),
@@ -38,7 +38,7 @@ class screen2 extends StatelessWidget {
                             mainAxisSize: MainAxisSize.min,
                             children: const [
                               CircleAvatar(
-
+                                backgroundColor: Colors.black26,
                                 radius: 30,
                               ),
                               SizedBox(height: 10),
@@ -55,7 +55,7 @@ class screen2 extends StatelessWidget {
                             mainAxisSize: MainAxisSize.min,
                             children: const [
                               CircleAvatar(
-
+                                backgroundColor: Colors.black26,
                                 radius: 30,
                               ),
                               SizedBox(height: 10),
@@ -72,7 +72,7 @@ class screen2 extends StatelessWidget {
                             mainAxisSize: MainAxisSize.min,
                             children: const [
                               CircleAvatar(
-
+                                backgroundColor: Colors.black26,
                                 radius: 30,
                               ),
                               SizedBox(height: 10),
@@ -89,7 +89,7 @@ class screen2 extends StatelessWidget {
                             mainAxisSize: MainAxisSize.min,
                             children: const [
                               CircleAvatar(
-
+                                backgroundColor: Colors.black26,
                                 radius: 30,
                               ),
                               SizedBox(height: 10),
@@ -106,7 +106,7 @@ class screen2 extends StatelessWidget {
                             mainAxisSize: MainAxisSize.min,
                             children: const [
                               CircleAvatar(
-
+                                backgroundColor: Colors.black26,
                                 radius: 30,
                               ),
                               SizedBox(height: 10),
@@ -123,7 +123,7 @@ class screen2 extends StatelessWidget {
                             mainAxisSize: MainAxisSize.min,
                             children: const [
                               CircleAvatar(
-
+                                backgroundColor: Colors.black26,
                                 radius: 30,
                               ),
                               SizedBox(height: 10),
@@ -146,7 +146,7 @@ class screen2 extends StatelessWidget {
               child: Container(
                 height: 190,
                 width: 380,
-                color:Colors.blue,
+                color:Colors.black26,
 
 
 
@@ -157,7 +157,7 @@ class screen2 extends StatelessWidget {
               child: Container(
                 height: 170,
                 width: 380,
-                color:Colors.blue,
+                color:Colors.black26,
                 
 
 
@@ -170,16 +170,16 @@ class screen2 extends StatelessWidget {
            children:<Widget> [
              Container(
                margin: const EdgeInsets.all(8),
-               color: Colors.blue,
+               color: Colors.black26,
                height: 40,
                width:150 ,
              ),
              const SizedBox(
-               width: 190,
+               width: 170,
              ),
              Container(
 
-               color: Colors.blue,
+               color: Colors.black26,
                height: 40,
                width:40 ,
              )
@@ -195,7 +195,7 @@ class screen2 extends StatelessWidget {
                     child: Container(
                       height: 170,
                       width: 150,
-                     color: Colors.blue,
+                     color:Colors.black26,
 
 
                     ),
@@ -205,7 +205,7 @@ class screen2 extends StatelessWidget {
                     child: Container(
                       height: 170,
                       width: 150,
-                    color: Colors.blue,
+                    color:  Colors.black26,
 
                     ),
 
@@ -215,7 +215,7 @@ class screen2 extends StatelessWidget {
                     child: Container(
                       height: 170,
                       width: 150,
-                      color: Colors.blue,
+                      color:Colors.black26,
 
                     ),
                   )

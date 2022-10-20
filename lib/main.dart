@@ -8,7 +8,7 @@ import 'package:flutter/material.dart';
 void main()=>runApp(
   MaterialApp(
     debugShowCheckedModeBanner: false,
-    home: Screen3(),
+    home: Screen1(),
   )
 );
 
