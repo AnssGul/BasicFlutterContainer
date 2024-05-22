@@ -18,13 +18,10 @@
 
 **Connect with Me:**
 
-**Connect with Me:**
-
 <p align="left">
   <a href="https://www.linkedin.com/in/muhammadanusgull" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linkedIn.svg" alt="muhammad anss gul" height="30" width="40" /></a>
   <a href="https://instagram.com/muhammad anss gul" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="muhammad anss gul" height="30" width="40" /></a>
 </p>
-
 
 **Languages and Tools:**
 
